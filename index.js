@@ -8,8 +8,8 @@ const GMP_API_KEY = process.env.GMP_API_KEY; // Google Maps Platform API Key
 const COLLEGE_ID = process.env.COLLEGE_ID; // Get it from Google Places API or https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
 const HOME_ID = process.env.HOME_ID; // Get it from Google Places API or https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
 
-const CSV_FILE = path.join(__dirname,data, "routes_output.csv");
-const QUOTA_FILE = path.join(__dirname,data, "quota.json");
+const CSV_FILE = path.join(__dirname, "data", "routes_output.csv");
+const QUOTA_FILE = path.join(__dirname, "data", "quota.json");
 const DAILY_LIMIT = 4 * 24 + 100; // 4 requests per hour, once everyy 15 minutes, add 100 to be safe
 
 if (!fs.existsSync(CSV_FILE)) {
