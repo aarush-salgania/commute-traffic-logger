@@ -79,7 +79,7 @@ HOME_ID=place_id_of_origin
 
 4. **Run Manually**
 ```bash
-node main.js
+node index.js
 
 ```
 
