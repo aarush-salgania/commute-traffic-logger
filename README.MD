@@ -54,7 +54,7 @@ The logger produces a strictly typed CSV with 14 columns, ensuring compatibility
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/aarushsalgania/commute-traffic-logger.git
+git clone https://github.com/aarush-salgania/commute-traffic-logger.git
 cd commute-traffic-logger
 
 ```
