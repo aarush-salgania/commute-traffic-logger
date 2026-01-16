@@ -1,0 +1,5 @@
+# Data Storage
+
+This directory stores the generated CSV logs.
+
+The actual data files (e.g., `routes_output.csv`) are git-ignored
